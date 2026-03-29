@@ -205,3 +205,13 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+## arquivos CSV e Parquet
+# ignorar arquivos
+data/raw/*
+data/bronze/*
+data/prata/*
+
+# permitir gitkeep
+!data/raw/.gitkeep
+!data/bronze/.gitkeep
+!data/prata/.gitkeep
